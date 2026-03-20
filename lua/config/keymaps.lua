@@ -19,8 +19,7 @@ vim.keymap.set("n", "<leader>nd", "<cmd>NoiceDismiss<CR>")
 vim.keymap.set("n", "<leader>nl", "<cmd>NoiceLast<CR>")
 vim.keymap.set("n", "<leader>nh", "<cmd>NoiceTelescope<CR>")
 
-vim.keymap.set("n", "<Tab>", "<cmd>tabnext<CR>")
-vim.keymap.set("n", "<S-Tab>", "<cmd>tabprev<CR>")
+vim.keymap.set("n", "T", "<cmd>tabnext<CR>")
 vim.keymap.set("n", "<C-t>", "<cmd>tabnew<CR>")
 vim.keymap.set("n", "ty", "<cmd>tab split<CR>")
 
