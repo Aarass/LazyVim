@@ -6,6 +6,10 @@ local pwd = require("custom.pwd")
 -- Add any additional keymaps here
 --
 
+vim.keymap.del("n", "gcc")
+vim.keymap.del("n", "gco")
+vim.keymap.del("n", "gcO")
+
 vim.keymap.set("n", "gh", hover.hover_fullscreen, { desc = "Hover fullscreen" })
 vim.keymap.set("n", "<leader>pa", pwd.pwd, { desc = "Copy working directory" })
 

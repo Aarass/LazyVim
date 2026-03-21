@@ -9,4 +9,14 @@ return {
       },
     },
   },
+  {
+    "nvim-mini/mini.comment",
+    event = "VeryLazy",
+    opts = {
+      mappings = {
+        comment = "",
+        comment_line = "gc",
+      },
+    },
+  },
 }
